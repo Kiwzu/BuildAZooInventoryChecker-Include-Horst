@@ -22,15 +22,10 @@ getgenv().InventoryCheckerConfig = {
 }
 
 -- โหลดสคริปต์
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/InventoryChecker/main/main.lua"))()
+loadstring(game:HttpGet("https://github.com/Kiwzu/BuildAZooInventoryChecker-Include-Horst/blob/main/Absorb.lua"))()
 ```
 
-### วิธีที่ 2: ใช้ผ่าน Pastebin
 
-```lua
-getgenv().InventoryCheckerConfig = { ... }
-loadstring(game:HttpGet("https://pastebin.com/raw/YOUR_CODE"))()
-```
 
 ## ⚙️ การตั้งค่า
 
