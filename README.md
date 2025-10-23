@@ -16,7 +16,7 @@ getgenv().InventoryCheckerConfig = {
         },
         Fruits = {}
     },
-    DescriptionTemplate = "🥚 Eggs: {eggs} | 💎 Diamond: 500",
+    DescriptionTemplate = "🥚 Eggs: {eggs} |",
     CheckInterval = 5,
     DebugMode = true
 }
@@ -58,12 +58,12 @@ RequiredItems = {
 
 ```lua
 -- ใช้ {eggs} เป็น placeholder สำหรับรายการไข่
-DescriptionTemplate = "🥚 Eggs: {eggs} | 💎 Diamond: 500 | ⚔️ Class: Cyborg"
+DescriptionTemplate = "🥚 Eggs: {eggs} | "
 ```
 
 **ผลลัพธ์:** 
 ```
-🥚 Eggs: HalloweenEgg(6), DragonEgg(3) | 💎 Diamond: 500 | ⚔️ Class: Cyborg
+🥚 Eggs: HalloweenEgg(6), DragonEgg(3) |
 ```
 
 ### CheckInterval
