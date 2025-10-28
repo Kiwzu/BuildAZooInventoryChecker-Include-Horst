@@ -22,7 +22,7 @@ getgenv().InventoryCheckerConfig = {
 }
 
 -- โหลดสคริปต์
-loadstring(game:HttpGet("https://github.com/Kiwzu/BuildAZooInventoryChecker-Include-Horst/blob/main/Absorb.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kiwzu/BuildAZooInventoryChecker-Include-Horst/refs/heads/main/Absorb.lua"))()
 ```
 
 
